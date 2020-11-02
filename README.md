@@ -11,3 +11,6 @@ Text is adding to image then to compile to video<br>
 <b>Logo Progress:</b><br>
 When text progress is completed, it is merging logo and video.
 
+<b>Video Output:</b><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/76C6JJmNVPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
