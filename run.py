@@ -17,7 +17,7 @@ def videoProgress():
         image = Image.open(image_folder+i)                                     #image_folder is path which has input folder and i has image name
         draw = ImageDraw.Draw(image)                                           
         font = ImageFont.truetype("Roboto-Regular.ttf", 72)
-        draw.text((50, 600),"+90555 555 55 55",(255,255,255),font=font)          #x y position - 0000 000 00 00 is text, 255 255 255 rgb color
+        draw.text((50, 600),"Hello World",(255,255,255),font=font)          #x y position - 0000 000 00 00 is text, 255 255 255 rgb color
         print(i)                                                               #just check from the console
         new_image = image.resize((1920, 1080))                                 # concatenate_videoclips need to same image sizes
         new_image.save(output_folder+i)
